@@ -20,17 +20,17 @@
         
 
     </head>
-    <body class="table-success container-fluid" >
+    <body class="table container-fluid" >
             
         <!--Agrupamento por colunas -->
         <div class="container-fluid table-striped ">
                 <div class="row">
                     <!--Primeira coluna URGÊNCIA-->
-                    <div class="col-lg table-danger">
+                    <div class="col-lg table-danger" style="margin-bottom: 5px">
                     <table class="table table-hover" >
                             <thead > 
                             <tr class="bg-danger" align="center" style="color:#5e1914;">
-                                <th colspan="1" >
+                                <th >
                                     <h3><strong>Urgência / Emergência</strong> 
                                     </h3>
                                 </th>
@@ -43,7 +43,8 @@
                                         <strong>Ac. Number: <b style="font-size:26px;"> 656465</b></strong><br>
                                         <strong>Paciente: </strong>JOSE CARLOS MAGALHAES FILHO<br>
                                         <strong>Exame:</strong> US ABSOME TOTAL (INCLUI ABDOME INFERIOR) 
-                                    </p> 
+                                    </p>
+                                    <button type="button" class="btn bg-danger container-fluid" ><STRONG>Enviar ao PACS</STRONG></button> 
                                 </td>
                             </tr>
                             <tr class="table-danger "><!-- LINHA COM DADOS DO PACIENTE -->
@@ -53,6 +54,7 @@
                                         <strong>Paciente: </strong>JOSE CARLOS MAGALHAES FILHO<br>
                                         <strong>Exame:</strong> US ABSOME TOTAL (INCLUI ABDOME INFERIOR) 
                                     </p> 
+                                    <button type="button" class="btn bg-danger container-fluid"><STRONG>Enviar ao PACS</STRONG></button>
                                 </td>
                             </tr>
                             <tr class="table-danger "><!-- LINHA COM DADOS DO PACIENTE -->
@@ -62,13 +64,14 @@
                                         <strong>Paciente: </strong>JOSE CARLOS MAGALHAES FILHO<br>
                                         <strong>Exame:</strong> US ABSOME TOTAL (INCLUI ABDOME INFERIOR) 
                                     </p> 
+                                    <button type="button" class="btn bg-danger container-fluid"><STRONG>Enviar ao PACS</STRONG></button>
                                 </td>
                             </tr>
                           </tbody>
                         </table>
                     </div>
                     <!--Segunda coluna INTERNAMENTO-->
-                    <div class="col-lg table-warning">
+                    <div class="col-lg table-warning" style="margin-bottom: 5px">
                             <table class="table table-hover" >
                                     <thead > 
                                     <tr class="bg-warning" align="center" style="color:#cc7722;">
@@ -86,6 +89,7 @@
                                                 <strong>Paciente: </strong>JOSE CARLOS MAGALHAES FILHO<br>
                                                 <strong>Exame:</strong> US ABSOME TOTAL (INCLUI ABDOME INFERIOR) 
                                             </p> 
+                                            <button type="button" class="btn bg-warning container-fluid"><STRONG>Enviar ao PACS</STRONG></button>
                                         </td>
                                     </tr>
                                     <tr class="table-warning "><!-- LINHA COM DADOS DO PACIENTE -->
@@ -95,6 +99,7 @@
                                                 <strong>Paciente: </strong>JOSE CARLOS MAGALHAES FILHO<br>
                                                 <strong>Exame:</strong> US ABSOME TOTAL (INCLUI ABDOME INFERIOR) 
                                             </p> 
+                                            <button type="button" class="btn bg-warning container-fluid"><STRONG>Enviar ao PACS</STRONG></button>
                                         </td>
                                     </tr>
                                     <tr class="table-warning "><!-- LINHA COM DADOS DO PACIENTE -->
@@ -104,6 +109,7 @@
                                                 <strong>Paciente: </strong>JOSE CARLOS MAGALHAES FILHO<br>
                                                 <strong>Exame:</strong> US ABSOME TOTAL (INCLUI ABDOME INFERIOR) 
                                             </p> 
+                                            <button type="button" class="btn bg-warning container-fluid"><STRONG>Enviar ao PACS</STRONG></button>
                                         </td>
                                     </tr>
                                   </tbody>
@@ -111,7 +117,7 @@
                             </div>
                     
                         <!--Terceira coluna EXTERNO-->
-                        <div class="col-lg table-success">
+                        <div class="col-lg table-success" style="margin-bottom: 5px">
                                 <table class="table table-hover" >
                                         <thead > 
                                         <tr class="bg-success" align="center" style="color:#0b6623;">
@@ -129,6 +135,7 @@
                                                     <strong>Paciente: </strong>JOSE CARLOS MAGALHAES FILHO<br>
                                                     <strong>Exame:</strong> US ABSOME TOTAL (INCLUI ABDOME INFERIOR) 
                                                 </p> 
+                                                <button type="button" class="btn bg-success container-fluid"><STRONG>Enviar ao PACS</STRONG></button>
                                             </td>
                                         </tr>
                                         <tr class="table-success "><!-- LINHA COM DADOS DO PACIENTE -->
@@ -138,6 +145,7 @@
                                                     <strong>Paciente: </strong>JOSE CARLOS MAGALHAES FILHO<br>
                                                     <strong>Exame:</strong> US ABSOME TOTAL (INCLUI ABDOME INFERIOR) 
                                                 </p> 
+                                                <button type="button" class="btn bg-success container-fluid"><STRONG>Enviar ao PACS</STRONG></button>
                                             </td>
                                         </tr>
                                         <tr class="table-success"><!-- LINHA COM DADOS DO PACIENTE -->
@@ -147,6 +155,7 @@
                                                     <strong>Paciente: </strong>JOSE CARLOS MAGALHAES FILHO<br>
                                                     <strong>Exame:</strong> US ABSOME TOTAL (INCLUI ABDOME INFERIOR) 
                                                 </p> 
+                                                <button type="button" class="btn bg-success container-fluid"><STRONG>Enviar ao PACS</STRONG></button>
                                             </td>
                                         </tr>
                                       </tbody>
