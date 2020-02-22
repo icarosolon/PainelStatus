@@ -20,13 +20,13 @@
         
 
     </head>
-    <body style="background-color: white">
+    <body style="background-color: white ">
         <!--Agrupamento por colunas -->
-        <div class="container-fluid table-striped">
+        <div class="container-fluid table-striped ">
                 <div class="row">
                     <!--Primeira coluna URGÊNCIA-->
-                    <div class="col-lg">
-                    <table class="table table-bordered" >
+                    <div class="col-lg table-danger">
+                    <table class="table table-hover" >
                             <thead > 
                               <tr class="bg-danger" align="center"> 
                                 <th colspan="4" ><h5>Urgência / Emergência</h5></th>    
@@ -73,8 +73,8 @@
                         </table>
                     </div>
                     <!--Segunda coluna INTERNAMENTO-->
-                    <div class="col-sm">
-                        <table class="table table-bordered" >
+                    <div class="col-sm table-warning">
+                        <table class="table table-hover" >
                                 <thead > 
                                     <tr class="bg-warning" align="center"> 
                                     <th colspan="4" ><h5>Urgência / Emergência</h5></th>    
@@ -121,8 +121,8 @@
                             </table>
                         </div>
                         <!--Terceira coluna EXTERNO-->
-                        <div class="col-sm">
-                            <table class="table table-bordered" >
+                        <div class="col-sm table-success">
+                            <table class="table table-hover " >
                                 <thead > 
                                     <tr class="bg-success" align="center"> 
                                     <th colspan="4" ><h5>Urgência / Emergência</h5></th>    
