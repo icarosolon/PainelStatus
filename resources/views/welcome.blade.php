@@ -17,11 +17,8 @@
         <link href="{{ asset('bootstrap/css/bootstrap-grid.css') }}" rel="stylesheet">
         <link href="{{ asset('bootstrap/css/bootstrap-grid.min.css') }}" rel="stylesheet">
         <link href="{{ asset('bootstrap/css/bootstrap-grid.min.css.map') }}" rel="stylesheet">
-        
-
     </head>
-    <body class="table container-fluid" >
-            
+    <body class="table container-fluid" >    
         <!--Agrupamento por colunas -->
         <div class="container-fluid table-striped ">
                 <div class="row">
@@ -115,7 +112,6 @@
                                   </tbody>
                                 </table>
                             </div>
-                    
                         <!--Terceira coluna EXTERNO-->
                         <div class="col-lg table-success" style="margin-bottom: 5px">
                                 <table class="table table-hover" >
@@ -163,21 +159,8 @@
                                 </div>
             </div>
         </div>
-        
-
-        
-
-          
-
-
-    
-
-    
-
-  
     </body>
 </html>
-
 
 <script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('bootstrap/js/bootstrap.min.js.map') }}"></script>
