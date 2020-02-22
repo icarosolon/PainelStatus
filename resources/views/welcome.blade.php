@@ -20,7 +20,8 @@
         
 
     </head>
-    <body style="background-color: white ">
+    <body class="table-success container-fluid" >
+            
         <!--Agrupamento por colunas -->
         <div class="container-fluid table-striped ">
                 <div class="row">
@@ -28,9 +29,9 @@
                     <div class="col-lg table-danger">
                     <table class="table table-hover" >
                             <thead > 
-                              <tr class="bg-danger" align="center"> 
-                                <th colspan="4" ><h5>Urgência / Emergência</h5></th>    
-                            <tr align="center"class="bg-danger "><!-- https://getbootstrap.com/docs/4.4/content/tables/ -->
+                              <tr class="bg-danger" align="center" style="color:white;"> 
+                                <th colspan="4" ><h3>Urgência / Emergência</h3></th>    
+                            <tr align="center"class="bg-danger " style="color:white;"><!-- https://getbootstrap.com/docs/4.4/content/tables/ -->
                               <th class="align-middle">Ac NB</th>
                               <th class="align-middle">Paciente</th>
                               <th class="align-middle">Exame</th>
@@ -56,19 +57,6 @@
                                 <td class="align-middle">US ABSOME TOTAL (INCLUI ABDOME INFERIOR)</td>
                                 <td class="align-middle"><input type="checkbox" name="realizado" id="realizado"></td>
                             </tr>
-                            <tr align="center">
-                                    <th class="align-middle">19246</th>
-                                    <td class="align-middle">DANIEL JOSE DA SILVA XAVIER</td>
-                                    <td class="align-middle">US ABSOME TOTAL (INCLUI ABDOME INFERIOR)</td>
-                                    <td class="align-middle"><input type="checkbox" name="realizado" id="realizado"></td>
-                                </tr>
-                                <tr align="center">
-                                        <th class="align-middle">19246</th>
-                                        <td class="align-middle">DANIEL JOSE DA SILVA XAVIER</td>
-                                        <td class="align-middle">US ABSOME TOTAL (INCLUI ABDOME INFERIOR)</td>
-                                        <td class="align-middle"><input type="checkbox" name="realizado" id="realizado"></td>
-                                    </tr>
-                            </tr>
                           </tbody>
                         </table>
                     </div>
@@ -76,9 +64,9 @@
                     <div class="col-sm table-warning">
                         <table class="table table-hover" >
                                 <thead > 
-                                    <tr class="bg-warning" align="center"> 
-                                    <th colspan="4" ><h5>Urgência / Emergência</h5></th>    
-                                <tr align="center"class="bg-warning "><!-- https://getbootstrap.com/docs/4.4/content/tables/ -->
+                                    <tr class="bg-warning" align="center" style="color:white;"> 
+                                    <th colspan="4" ><h3>Urgência / Emergência</h3></th>    
+                                <tr align="center"class="bg-warning " style="color:white;"><!-- https://getbootstrap.com/docs/4.4/content/tables/ -->
                                     <th class="align-middle">Ac NB</th>
                                     <th class="align-middle">Paciente</th>
                                     <th class="align-middle">Exame</th>
@@ -116,7 +104,6 @@
                                             <td class="align-middle">US ABSOME TOTAL (INCLUI ABDOME INFERIOR)</td>
                                             <td class="align-middle"><input type="checkbox" name="realizado" id="realizado"></td>
                                         </tr>
-                                </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -124,9 +111,9 @@
                         <div class="col-sm table-success">
                             <table class="table table-hover " >
                                 <thead > 
-                                    <tr class="bg-success" align="center"> 
-                                    <th colspan="4" ><h5>Urgência / Emergência</h5></th>    
-                                <tr align="center"class="bg-success "><!-- https://getbootstrap.com/docs/4.4/content/tables/ -->
+                                    <tr class="bg-success" align="center" style="color:white;"> 
+                                    <th colspan="4" ><h3>Urgência / Emergência</h3></th>    
+                                <tr align="center"class="bg-success " style="color:white;"><!-- https://getbootstrap.com/docs/4.4/content/tables/ -->
                                     <th class="align-middle">Ac NB</th>
                                     <th class="align-middle">Paciente</th>
                                     <th class="align-middle">Exame</th>
@@ -164,7 +151,6 @@
                                             <td class="align-middle">US ABSOME TOTAL (INCLUI ABDOME INFERIOR)</td>
                                             <td class="align-middle"><input type="checkbox" name="realizado" id="realizado"></td>
                                         </tr>
-                                </tr>
                                 </tbody>
                             </table>
                         </div>
